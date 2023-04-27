@@ -1,7 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    
+
+.header {
+    text-align: center;
+    padding: 0.5%;
+    flex-wrap: wrap;
+    font-family: "press start 2p";
+    font:bolder;
+}
+
+
+#aboutme{
+    text-align: center; 
+    font-size: large;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: auto;
+    height: 300px;
+    object-fit: cover;
+}
+
 html {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 62.5;
-color: blueviolet;
-background-color:violet
+color: rgb(120, 226, 255);
+background-color:rgba(229,152,216,255)
+}
+
+.card{
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    float: right;
+    width: 50%;
+    color: rgb(202, 81, 174);
+    background-image: -moz-repeating-linear-gradient(center);
+    box-shadow: inset 0px 0px 8px;
+    transition: all 0.5s ease-in-out;
+    border-width: 4.5px;
+    border-style: inset;
+    border-color: rgb(202, 81, 174);
+    border-radius: 10px;
+}
+
+#contacts{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 50px;
+}
+.nav{
+display: flex;
+justify-content: center;
+}
+
+img{
+
+
+object-fit: fill;
+    
+}
+
+
+
+.pfp {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    animation: infinite;
 
 }
+
