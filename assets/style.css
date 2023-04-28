@@ -22,6 +22,7 @@
     padding: auto;
     height: 300px;
     object-fit: cover;
+    
 }
 
 html {
@@ -50,11 +51,9 @@ background-color:rgba(229,152,216,255)
 }
 
 #contacts{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  
     margin: 50px;
+    text-align: center;
 }
 .nav{
 display: flex;
@@ -62,12 +61,24 @@ justify-content: center;
 }
 
 img{
-
-
-object-fit: fill;
+object-fit:fill;
+width: 50%;
+height: 50%;
     
 }
 
+#studyguide{
+    background-image: url("./images/Prework\ Study\ Guide.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#horiseon{
+    background-image: url("./images/Horiseon\ \(1\).png");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
 
 
 .pfp {
